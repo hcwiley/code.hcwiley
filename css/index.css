@@ -1,0 +1,12 @@
+#todo {
+  margin: 20px auto;
+  float: left;
+  width: 800px;
+}
+#todo h1 {
+  color: #666c01;
+  font-family: serif;
+}
+#todo p {
+  font-family: sans-serif;
+}
