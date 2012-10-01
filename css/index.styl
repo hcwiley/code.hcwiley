@@ -10,19 +10,86 @@ html, body
   height 100%
 
 #todo
-  margin 20px auto
+  margin 0 auto
   width 600px
-  h1
-    color #666C01
+  height auto
+  min-height auto
+  padding 4`0px 100px
+  background-color #ecefef
   p
-    text-align justify
+    text-align left
+    font-size 13pt
   a
-    color #A67805
+    color #993333
   ul
     margin-left 50px
   li
-    list-style circle
+    list-style none
+    background-image url('../images/bullet.svg') 
+    background-position -150px 0px
+    background-repeat no-repeat
+    background-size 60% 60%
     margin-bottom 5px
+    padding-left 60px
+    padding-bottom 10px
+    height 20px
     a 
-     color #666C01
+     color #993333
 
+.bio
+  position absolute
+  left 0px
+  padding 30px 0px
+  width 100%
+  background-color #c1c1d2
+  p
+    font-family: 'Economica' sans-serif
+    margin 10px auto
+    color white
+    width 350px
+    font-weight 700
+    line-height 15pt
+.content
+  width 600px
+  height auto
+  position relative
+  margin 350px auto 0px auto
+strong
+  font-variant small-caps
+  font-size 13pt
+  color white
+
+#dev-links
+  width 480px
+  margin 10px auto
+  padding 10px 0px 0px 0px
+  position relative
+  height 120px
+.dev-link
+  height 120px
+  width 140px
+  background-size 90px 90px
+  background-repeat no-repeat
+  background-position 10% 10%
+  padding 0px 0px
+  margin 0px 10px
+  float left
+  display inline-block
+.dev-link:hover
+  border-bottom solid thick white
+  fill white
+#github
+  padding-left 0px
+  margin-left 20px
+  background-image url('../images/blacktocat.svg')
+#email
+  background-image url('../images/email.svg')
+#resume
+  background-image url('../images/resume.svg')
+  padding-right 0px
+  margin-right 0px
+
+h1
+  font-family 'Adamina', serif
+  color #333366
+  font-variant small-caps
