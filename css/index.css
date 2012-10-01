@@ -15,12 +15,12 @@ body {
   width: 600px;
   height: auto;
   min-height: auto;
+  padding: 40px 100px;
+  background-color: #ecefef;
 }
-#todo padding 4`0px 100px,
-#todo background-color #ecefef,
 #todo p {
   text-align: left;
-  font-size: 13pt;
+  font-size: 16px;
 }
 #todo a {
   color: #933;
