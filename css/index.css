@@ -16,7 +16,6 @@ body {
   height: auto;
   min-height: auto;
   padding: 40px 100px;
-  background-color: #ecefef;
 }
 #todo p {
   text-align: left;
@@ -86,20 +85,11 @@ strong {
   float: left;
   display: inline-block;
 }
-.dev-link:hover {
-  border-bottom: solid thick #fff;
-  fill: #fff;
-}
 #github {
   padding-left: 0px;
   margin-left: 20px;
-  background-image: url("../images/blacktocat.svg");
-}
-#email {
-  background-image: url("../images/email.svg");
 }
 #resume {
-  background-image: url("../images/resume.svg");
   padding-right: 0px;
   margin-right: 0px;
 }
