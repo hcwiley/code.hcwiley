@@ -15,9 +15,9 @@ body {
   width: 600px;
   height: auto;
   min-height: auto;
+  padding: 40px 100px;
+  background-color: #f2e6ce;
 }
-#todo padding 4`0px 100px,
-#todo background-color #ecefef,
 #todo p {
   text-align: left;
   font-size: 13pt;
@@ -40,19 +40,19 @@ body {
   height: 20px;
 }
 #todo li a {
-  color: #933;
+  color: #a61c1c;
 }
 .bio {
   position: absolute;
   left: 0px;
   padding: 30px 0px;
   width: 100%;
-  background-color: #c1c1d2;
+  background-color: #261f1d;
 }
 .bio p {
   font-family: 'Economica' sans-serif;
   margin: 10px auto;
-  color: #fff;
+  color: #f2e6ce;
   width: 350px;
   font-weight: 700;
   line-height: 15pt;
@@ -87,8 +87,7 @@ strong {
   display: inline-block;
 }
 .dev-link:hover {
-  border-bottom: solid thick #fff;
-  fill: #fff;
+  opacity: 0.6;
 }
 #github {
   padding-left: 0px;
