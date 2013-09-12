@@ -9,7 +9,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #261f1d;
+  background-color: #193441;
 }
 #todo {
   margin: 0 auto;
@@ -17,14 +17,14 @@ body {
   height: auto;
   min-height: 100%;
   padding: 40px 100px;
-  background-image: url("../images/bg.png");
+  background: #fcfff5;
 }
 #todo p {
   text-align: left;
   font-size: 16px;
 }
 #todo a {
-  color: #933;
+  color: #3e606f;
 }
 #todo ul {
   margin-left: 50px;
@@ -40,9 +40,6 @@ body {
   padding-bottom: 10px;
   height: 20px;
 }
-#todo li a {
-  color: #a61c1c;
-}
 .bio {
   position: absolute;
   left: 0px;
@@ -50,7 +47,7 @@ body {
   width: 100%;
   height: 330px;
   box-shadow: 15px 0px 45px rgba(0,0,0,0.3);
-  background-color: #f2e6ce;
+  background-color: #91aa9d;
   text-align: center;
 }
 .bio p {
@@ -75,7 +72,7 @@ body {
 strong {
   font-variant: small-caps;
   font-size: 13pt;
-  color: #fff;
+  color: #d1dbbd;
 }
 #dev-links {
   width: 480px;
